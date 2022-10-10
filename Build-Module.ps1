@@ -5,7 +5,7 @@
 [string]$ProjectUri = "https://github.com/$author/$moduleName"
 [string]$releaseNotes = "Initial commit"
 [string]$description = "Helper functions for PowerShell"
-[array]$tags = @("Help","Helper functions")
+[array]$tags = @("Help","Helper","Helper-functions")
 [version]$PSversion = "7.2"
 
 $manifestSplat = @{
