@@ -1,6 +1,6 @@
 #Requires -Module ModuleBuilder
 [string]$moduleName = "NN.PwshHelper"
-[version]$version = "0.0.1"
+[version]$version = "0.0.2"
 [string]$author = "NorskNoobing"
 [string]$ProjectUri = "https://github.com/$author/$moduleName"
 [string]$releaseNotes = "Initial commit"
