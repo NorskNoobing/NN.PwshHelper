@@ -1,9 +1,9 @@
 #Requires -Module ModuleBuilder
 [string]$moduleName = "NN.PwshHelper"
-[version]$version = "0.0.4"
+[version]$version = "0.0.5"
 [string]$author = "NorskNoobing"
 [string]$ProjectUri = "https://github.com/$author/$moduleName"
-[string]$releaseNotes = "hotfix Write-Log"
+[string]$releaseNotes = "Update Invoke-PwshPublishModule.ps1"
 [string]$description = "Helper functions for PowerShell"
 [array]$tags = @("Help","Helper","Helper-functions")
 [version]$PSversion = "7.2"
