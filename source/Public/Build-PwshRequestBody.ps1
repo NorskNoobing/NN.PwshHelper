@@ -1,20 +1,21 @@
 function Build-PwshRequestBody {
     [CmdletBinding()]
     param (
-        [Parameter(Mandatory)][hashtable]$Parameters,
-        [array]$ExcludedParameters
+        [Parameter(Mandatory)][hashtable]$Params,
+        [array]$ExcludedParams
     )
 
     process {
+        $Body = $null
         $Params.Keys.ForEach({
             [string]$Key = $_
             $Value = $Params.$key
         
-            if ($ExcludedParameters -contains $Key) {
+            if ($ExcludedParams -contains $Key) {
                 return
             }
         
-            $Body = $Body + @{
+            $Body += @{
                 $Key = $Value
             }
         })
